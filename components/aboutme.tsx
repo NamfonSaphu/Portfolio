@@ -2,6 +2,8 @@ import { ArrowRight, Github, Linkedin, Mail, Twitter, User } from "lucide-react"
 import { Button } from "./ui/button"
 import Link from "next/link"
 import Image from "next/image"
+import Me from "@/assets/me.jpg"
+
 export default function AboutMePage() {
     return (
         <div className="flex flex-col">
@@ -10,14 +12,15 @@ export default function AboutMePage() {
                 <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
                     <div className="flex-1 space-y-4">
                         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                            Hi, I'm <span className="text-primary">DevName</span> 👋
+                            Hi, I'm <span className="text-primary">NAMFON SAPHU</span>
                         </h1>
                         <p className="text-xl text-muted-foreground">
-                            Full-Stack Developer specializing in building exceptional digital experiences.
+                            A developer passionate about creating clean, efficient, and user-friendly digital experiences.
+                            I enjoy turning complex problems into simple, beautiful solutions. Always eager to learn new technologies and collaborate on meaningful projects.
                         </p>
                         <div className="flex gap-4">
                             <Button asChild>
-                                <Link href="#projects">
+                                <Link href="#project">
                                     View My Work <ArrowRight className="ml-2 h-4 w-4" />
                                 </Link>
                             </Button>
@@ -26,28 +29,21 @@ export default function AboutMePage() {
                             </Button>
                         </div>
                         <div className="flex gap-4 pt-4">
-                            <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://github.com/namfonsaphu" target="_blank" rel="noopener noreferrer">
                                 <Github className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
                                 <span className="sr-only">GitHub</span>
                             </Link>
-                            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://www.linkedin.com/in/namfon-saphu/" target="_blank" rel="noopener noreferrer">
                                 <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
                                 <span className="sr-only">LinkedIn</span>
                             </Link>
-                            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                                <Twitter className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
-                                <span className="sr-only">Twitter</span>
-                            </Link>
-                            <Link href="mailto:email@example.com">
-                                <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
-                                <span className="sr-only">Email</span>
-                            </Link>
+                           
                         </div>
                     </div>
                     <div className="flex-1 flex justify-center md:justify-end">
                         <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] rounded-full overflow-hidden border-4 border-primary/20">
                             <Image
-                                src="/placeholder.svg?height=320&width=320"
+                                src={Me}
                                 alt="Developer Portrait"
                                 fill
                                 className="object-cover"
@@ -68,36 +64,33 @@ export default function AboutMePage() {
                     <div className="grid md:grid-cols-2 gap-8 items-center">
                         <div className="space-y-4">
                             <p className="text-muted-foreground">
-                                I'm a passionate full-stack developer with over 5 years of experience building web applications. I
-                                specialize in JavaScript, React, Node.js, and modern web technologies.
+                                Hi, I’m Namfon Saphu, a Developer based in Bangkok, Thailand.
+                                I specialize in building clean, responsive, and user-focused web applications using modern technologies such as React, Next.js, JavaScript, and TypeScript.
                             </p>
                             <p className="text-muted-foreground">
-                                My journey in software development started when I built my first website at 15. Since then, I've
-                                worked with startups and established companies to create efficient, scalable, and user-friendly
-                                applications.
+                                With a strong eye for detail and a passion for UI/UX, I love transforming complex ideas into simple, intuitive interfaces that provide real value to users. Whether it's collaborating with designers, working alongside back-end teams, or engaging with clients directly — I thrive in environments that encourage creative problem-solving and continuous learning.
                             </p>
                             <p className="text-muted-foreground">
-                                When I'm not coding, you can find me hiking, reading tech blogs, or contributing to open-source
-                                projects.
+                                My goal is to create scalable, high-quality digital products that not only work flawlessly but also leave a lasting impact. I’m always open to learning new tools, contributing to meaningful projects, and growing as a developer every day.
                             </p>
                         </div>
                         <div className="space-y-4">
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="bg-background p-4 rounded-lg border">
                                     <h3 className="font-medium">Education</h3>
-                                    <p className="text-sm text-muted-foreground">B.S. Computer Science, University Name</p>
+                                    <p className="text-sm text-muted-foreground">Ubon Ratchathani University</p>
                                 </div>
                                 <div className="bg-background p-4 rounded-lg border">
                                     <h3 className="font-medium">Experience</h3>
-                                    <p className="text-sm text-muted-foreground">5+ Years Professional Experience</p>
+                                    <p className="text-sm text-muted-foreground">None Experience</p>
                                 </div>
                                 <div className="bg-background p-4 rounded-lg border">
                                     <h3 className="font-medium">Location</h3>
-                                    <p className="text-sm text-muted-foreground">San Francisco, CA</p>
+                                    <p className="text-sm text-muted-foreground">Bangkok, Thailand</p>
                                 </div>
                                 <div className="bg-background p-4 rounded-lg border">
                                     <h3 className="font-medium">Languages</h3>
-                                    <p className="text-sm text-muted-foreground">English, Spanish</p>
+                                    <p className="text-sm text-muted-foreground">Thai, English</p>
                                 </div>
                             </div>
                             <Button variant="outline" className="w-full" asChild>

@@ -10,7 +10,7 @@ export default function NavbarPage() {
                 <div className="font-bold text-xl">
                     <Link href="/" className="flex items-center gap-2">
                         <Code className="h-5 w-5" />
-                        <span>DevName</span>
+                        <span>NAMFON S.</span>
                     </Link>
                 </div>
                 <nav className="hidden md:flex gap-6">

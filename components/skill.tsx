@@ -101,7 +101,7 @@ const programmingSkills = [
         category: "frontend",
     },
     {
-        name: "Python",
+        name: "PHP",
         icon: <Code2 className="h-5 w-5" />,
         category: "backend",
     },
@@ -127,6 +127,11 @@ const programmingSkills = [
     },
     {
         name: "React",
+        icon: <Code2 className="h-5 w-5" />,
+        category: "frontend",
+    },
+    {
+        name: "Next.js",
         icon: <Code2 className="h-5 w-5" />,
         category: "frontend",
     },

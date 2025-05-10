@@ -11,7 +11,7 @@ export default function ProjectPage() {
           <div className="container space-y-8">
             <div className="flex items-center gap-2">
               <Briefcase className="h-5 w-5 text-primary" />
-              <h2 className="text-2xl font-bold tracking-tighter md:text-3xl">Featured Projects</h2>
+              <h2 className="text-2xl font-bold tracking-tighter md:text-3xl">Blog Project</h2>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[

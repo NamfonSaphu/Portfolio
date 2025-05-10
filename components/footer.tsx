@@ -8,25 +8,17 @@ export default function FooterPage() {
                 <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
                     <div className="flex items-center gap-2">
                         <Code className="h-5 w-5" />
-                        <span className="font-medium">DevName</span>
+                        <span className="font-medium">NAMFON S.</span>
                     </div>
-                    <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} DevName. All rights reserved.</p>
+                    <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} NAMFON. All rights reserved.</p>
                     <div className="flex gap-4">
-                        <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://github.com/namfonsaphu" target="_blank" rel="noopener noreferrer">
                             <Github className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
                             <span className="sr-only">GitHub</span>
                         </Link>
-                        <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://www.linkedin.com/in/namfon-saphu/" target="_blank" rel="noopener noreferrer">
                             <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
                             <span className="sr-only">LinkedIn</span>
-                        </Link>
-                        <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                            <Twitter className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
-                            <span className="sr-only">Twitter</span>
-                        </Link>
-                        <Link href="mailto:email@example.com">
-                            <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
-                            <span className="sr-only">Email</span>
                         </Link>
                     </div>
                 </div>
