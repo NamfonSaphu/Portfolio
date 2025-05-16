@@ -26,7 +26,6 @@ export default function SkillPage() {
                             <TabsTrigger value="frontend">Frontend</TabsTrigger>
                             <TabsTrigger value="backend">Backend</TabsTrigger>
                             <TabsTrigger value="database">Database</TabsTrigger>
-                            <TabsTrigger value="other">Other</TabsTrigger>
                         </TabsList>
 
                         <TabsContent value="all" className="mt-6">
@@ -101,12 +100,7 @@ const programmingSkills = [
         category: "frontend",
     },
     {
-        name: "PHP",
-        icon: <Code2 className="h-5 w-5" />,
-        category: "backend",
-    },
-    {
-        name: "SQL",
+        name: "MYSQL",
         icon: <Database className="h-5 w-5" />,
         category: "database",
     },
@@ -139,10 +133,5 @@ const programmingSkills = [
         name: "MongoDB",
         icon: <Database className="h-5 w-5" />,
         category: "database",
-    },
-    {
-        name: "Git",
-        icon: <Terminal className="h-5 w-5" />,
-        category: "other",
     },
 ]

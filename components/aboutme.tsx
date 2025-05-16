@@ -37,7 +37,7 @@ export default function AboutMePage() {
                                 <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
                                 <span className="sr-only">LinkedIn</span>
                             </Link>
-                           
+
                         </div>
                     </div>
                     <div className="flex-1 flex justify-center md:justify-end">
@@ -66,9 +66,6 @@ export default function AboutMePage() {
                             <p className="text-muted-foreground">
                                 Hi, I’m Namfon Saphu, a Developer based in Bangkok, Thailand.
                                 I specialize in building clean, responsive, and user-focused web applications using modern technologies such as React, Next.js, JavaScript, and TypeScript.
-                            </p>
-                            <p className="text-muted-foreground">
-                                With a strong eye for detail and a passion for UI/UX, I love transforming complex ideas into simple, intuitive interfaces that provide real value to users. Whether it's collaborating with designers, working alongside back-end teams, or engaging with clients directly — I thrive in environments that encourage creative problem-solving and continuous learning.
                             </p>
                             <p className="text-muted-foreground">
                                 My goal is to create scalable, high-quality digital products that not only work flawlessly but also leave a lasting impact. I’m always open to learning new tools, contributing to meaningful projects, and growing as a developer every day.
