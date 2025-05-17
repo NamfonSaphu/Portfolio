@@ -47,8 +47,28 @@ export default function BlogPage() {
                 </p>
               </div>
               <div className="space-y-4">
+                <h3 className="text-xl font-semibold text-slate-600">Key Features</h3>
+                <div>
+                  <p className="text-gray-700 leading-relaxed">
+                    View Content: Users can conveniently browse and read various types of content.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    User Registration: Supports new user account creation and profile management.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Create Blog Reviews: Allows users to write and publish their own review articles.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Interactive Map: View maps to find locations or related information with ease.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Favorites: Save favorite pages or items for quick access later.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Search Functionality: Quickly search for content with relevant and accurate results.
+                  </p>
+                </div>
                 <h3 className="text-xl font-semibold text-slate-600">Technical Stack</h3>
-
                 <div>
                   <p className="text-gray-700 leading-relaxed">
                     Frontend: Developed using Next.js, a React-based framework that supports Server-side Rendering (SSR), Static Site Generation (SSG), and built-in API routes. This enhances performance and SEO capabilities.

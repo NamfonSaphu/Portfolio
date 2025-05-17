@@ -9,12 +9,12 @@ export default function ProjectPage() {
   return (
     <div>
       <section id="project" className="bg-muted/50 py-16 md:py-24">
-        <div className="container space-y-8">
+        <div className="container space-y-8 ">
           <div className="flex items-center gap-2">
             <Briefcase className="h-5 w-5 text-primary" />
             <h2 className="text-2xl font-bold tracking-tighter md:text-3xl">Project</h2>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 ">
             {[
               {
                 title: "Blog Review",
@@ -34,17 +34,11 @@ export default function ProjectPage() {
                 github: "https://github.com/NamfonSaphu/Chat-Socket",
                 href: "/projects/real-time-chat",
               },
-              {
-                title: "AI File Analyzer",
-                description:
-                  "An app using Next.js and the Vercel AI SDK to analyze and process file data, leveraging AI to analyze content.",
-                tech: ["Next.js", "TypeScript", "JavaScript (ES6+)", "Shadcn ui", "Tailwind CSS"],
-                image: "/images/ai-file-analyzer.png",
-                github: "https://github.com/NamfonSaphu/AI-File",
-                href: "/projects/ai-file-analyzer",
-              },
             ].map((project, index) => (
-              <Card key={index} className="overflow-hidden">
+              <Card
+                key={index}
+                className="overflow-hidden transform transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg"
+              >
                 <div className="relative h-48">
                   <Image
                     src={project.image || "/placeholder.svg"}
@@ -60,7 +54,10 @@ export default function ProjectPage() {
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((tech) => (
-                      <span key={tech} className="bg-primary/10 text-primary text-xs px-2 py-1 rounded">
+                      <span
+                        key={tech}
+                        className="bg-primary/10 text-primary text-xs px-2 py-1 rounded"
+                      >
                         {tech}
                       </span>
                     ))}
@@ -84,6 +81,7 @@ export default function ProjectPage() {
                   </Link>
                 </CardFooter>
               </Card>
+
             ))}
           </div>
         </div>

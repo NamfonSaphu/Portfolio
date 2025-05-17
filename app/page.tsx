@@ -3,7 +3,7 @@ import ContactPage from "@/components/contact";
 import FooterPage from "@/components/footer";
 import NavbarPage from "@/components/navbar";
 import ProjectPage from "@/components/project";
-import SkillPage from "@/components/skill";
+import SkillPage from "@/components/skills/skill";
 
 export default function Home() {
   return (
