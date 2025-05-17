@@ -1,7 +1,9 @@
+import React from 'react'
+
 const page = () => {
   return (
     <div>
-      <h1>ai-file</h1>
+      
     </div>
   )
 }

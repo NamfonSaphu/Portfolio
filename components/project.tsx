@@ -17,7 +17,7 @@ export default function ProjectPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: "Blog Guide",
+                title: "Blog Review",
                 description:
                   "blog-guide is a personal blog web application developed with Next.js. The project integrates modern technologies including react-leaflet for interactive map rendering, Supabase for real-time database management, and Clerk for secure user authentication and authorization.",
                 tech: ["Next.JS", "TypeScript", "Supabase", "Shadcn ui", "Tailwind CSS", "Clerk"],

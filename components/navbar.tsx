@@ -1,7 +1,5 @@
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 import { Code } from "lucide-react"
-import { ThemeToggle } from "@/app/theme-toggle"
 
 export default function NavbarPage() {
     return (
@@ -27,7 +25,6 @@ export default function NavbarPage() {
                         Contact
                     </Link>
                 </nav>
-                <ThemeToggle />
             </div>
         </div>
     )
