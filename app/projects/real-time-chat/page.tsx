@@ -47,7 +47,7 @@ export default function RealTimePage() {
                   <p className="text-gray-500 leading-relaxed">
                     Next.js: A full-stack React framework for building scalable web applications
                   </p>
-                  <Alert className="mt-4 text-gray-900">
+                  <Alert className="mt-4 text-slate-500 items-center">
                     <Terminal className="h-4 w-4" />
                     <AlertTitle>npx create-next-app@latest</AlertTitle>
                   </Alert>
@@ -56,7 +56,7 @@ export default function RealTimePage() {
                   <p className="text-gray-500 leading-relaxed">
                     Socket.io: Enables real-time, bi-directional communication using WebSocket
                   </p>
-                  <Alert className="mt-4 text-gray-900">
+                  <Alert className="mt-4 text-slate-500 items-center">
                     <Terminal className="h-4 w-4" />
                     <AlertTitle>npm install socket.io</AlertTitle>
                   </Alert>
@@ -65,7 +65,7 @@ export default function RealTimePage() {
                   <p className="text-gray-500 leading-relaxed">
                     ShadCN UI – A flexible and developer-friendly UI component library
                   </p>
-                  <Alert className="mt-4 text-gray-900">
+                  <Alert className="mt-4 text-slate-500 items-center">
                     <Terminal className="h-4 w-4" />
                     <AlertTitle>npx shadcn@latest init</AlertTitle>
                   </Alert>

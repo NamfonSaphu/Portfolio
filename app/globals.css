@@ -44,50 +44,30 @@
 }
 :root {
   --radius: 0.625rem;
-
-  /* Base Colors */
   --background: oklch(13% 0.028 261.692);
-  --foreground: oklch(95% 0.02 270); /* ขาวอมม่วงอ่อน */
-
-  /* Card & Popover */
-  --card: oklch(98.5% 0.001 106.423); /* ใกล้เคียงพื้นหลังแต่สว่างขึ้นเล็กน้อย */
+  --foreground: oklch(95% 0.02 270);
+  --card: oklch(13% 0.028 261.692); 
   --card-foreground: var(--foreground);
   --popover: var(--card);
   --popover-foreground: var(--foreground);
-
-  /* Primary Button/Highlight */
-  --primary: oklch(70.4% 0.04 256.788); /* น้ำเงินอมม่วง */
-  --primary-foreground: oklch(98% 0.02 270); /* เกือบขาว อ่านง่าย */
-
-  /* Secondary (neutral) */
+  --primary: oklch(70.4% 0.04 256.788);
+  --primary-foreground: oklch(98% 0.02 270); 
   --secondary: oklch(30% 0.03 261); 
   --secondary-foreground: var(--foreground);
-
-  /* Muted (low emphasis text or UI) */
   --muted: oklch(20% 0.01 261);
   --muted-foreground: oklch(60% 0.02 261);
-
-  /* Accent (hover, highlight) */
   --accent: oklch(40% 0.05 261);
   --accent-foreground: var(--foreground);
-
-  /* Error/Destructive */
-  --destructive: oklch(60% 0.25 27); /* แดงสด */
-  --destructive-foreground: oklch(98% 0 0); /* ขาว */
-
-  /* Border & Input */
+  --destructive: oklch(60% 0.25 27); 
+  --destructive-foreground: oklch(98% 0 0); 
   --border: oklch(25% 0.015 261);
   --input: var(--border);
   --ring: oklch(50% 0.1 261);
-
-  /* Chart Colors */
-  --chart-1: oklch(65% 0.2 260);  /* Violet */
-  --chart-2: oklch(60% 0.15 200); /* Blue */
-  --chart-3: oklch(50% 0.12 240); /* Indigo */
-  --chart-4: oklch(70% 0.18 120); /* Green */
-  --chart-5: oklch(65% 0.18 80);  /* Yellow-Green */
-
-  /* Sidebar Colors */
+  --chart-1: oklch(65% 0.2 260);  
+  --chart-2: oklch(60% 0.15 200); 
+  --chart-3: oklch(50% 0.12 240); 
+  --chart-4: oklch(70% 0.18 120); 
+  --chart-5: oklch(65% 0.18 80);  
   --sidebar: oklch(16% 0.02 261);
   --sidebar-foreground: var(--foreground);
   --sidebar-primary: var(--primary);

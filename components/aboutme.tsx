@@ -58,7 +58,7 @@ export default function AboutMePage() {
                                 My goal is to create scalable, high-quality digital products that not only work flawlessly but also leave a lasting impact. I&apos;m always open to learning new tools, contributing to meaningful projects, and growing as a developer every day.
                             </p>
                         </div>
-                        <div className="space-y-4">
+                        <div className="space-y-4 mb-4">
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="bg-background p-4 rounded-lg border">
                                     <h3 className="font-medium">Education</h3>
