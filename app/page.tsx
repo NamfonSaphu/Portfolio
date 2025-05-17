@@ -7,7 +7,7 @@ import SkillPage from "@/components/skills/skill";
 
 export default function Home() {
   return (
-    <div className="container p-6">
+    <div className="px-20">
       <NavbarPage />
       <AboutMePage />
       <SkillPage />

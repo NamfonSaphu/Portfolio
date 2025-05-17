@@ -1,7 +1,4 @@
 import { Github, Linkedin, Mail, Send } from "lucide-react";
-import { Input } from "./ui/input";
-import { Textarea } from "./ui/textarea";
-import { Button } from "./ui/button";
 
 export default function ContactPage() {
     return (
@@ -9,7 +6,6 @@ export default function ContactPage() {
             <section id="contact" className="py-16 md:py-24">
                 <div className="container space-y-8">
                     <div className="flex items-center gap-2">
-                        <Mail className="h-5 w-5 text-primary" />
                         <h2 className="text-2xl font-bold tracking-tighter md:text-3xl">Get In Touch</h2>
                     </div>
                     <div className="grid md:grid-cols-2 gap-8">

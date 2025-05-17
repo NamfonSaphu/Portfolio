@@ -1,8 +1,6 @@
-import { ArrowRight, Github, Linkedin, Mail, Twitter, User } from "lucide-react"
+import { ArrowRight, Github, Linkedin } from "lucide-react"
 import { Button } from "./ui/button"
 import Link from "next/link"
-import Image from "next/image"
-import Me from "@/assets/me.jpg"
 
 export default function AboutMePage() {
     return (
@@ -40,25 +38,14 @@ export default function AboutMePage() {
 
                         </div>
                     </div>
-                    <div className="flex-1 flex justify-center md:justify-end">
-                        <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] rounded-full overflow-hidden border-4 border-primary/20">
-                            <Image
-                                src={Me}
-                                alt="Developer Portrait"
-                                fill
-                                className="object-cover"
-                                priority
-                            />
-                        </div>
-                    </div>
+
                 </div>
             </section>
 
             {/* About Section */}
-            <section id="about" className="bg-muted/50 py-16 md:py-24">
+            <section id="about" className="md:py-24">
                 <div className="container space-y-8">
                     <div className="flex items-center gap-2">
-                        <User className="h-5 w-5 text-primary" />
                         <h2 className="text-2xl font-bold tracking-tighter md:text-3xl">About Me</h2>
                     </div>
                     <div className="grid md:grid-cols-2 gap-8 items-center">

@@ -42,41 +42,62 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 }
-
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+
+  /* Base Colors */
+  --background: oklch(13% 0.028 261.692);
+  --foreground: oklch(95% 0.02 270); /* ขาวอมม่วงอ่อน */
+
+  /* Card & Popover */
+  --card: oklch(98.5% 0.001 106.423); /* ใกล้เคียงพื้นหลังแต่สว่างขึ้นเล็กน้อย */
+  --card-foreground: var(--foreground);
+  --popover: var(--card);
+  --popover-foreground: var(--foreground);
+
+  /* Primary Button/Highlight */
+  --primary: oklch(70.4% 0.04 256.788); /* น้ำเงินอมม่วง */
+  --primary-foreground: oklch(98% 0.02 270); /* เกือบขาว อ่านง่าย */
+
+  /* Secondary (neutral) */
+  --secondary: oklch(30% 0.03 261); 
+  --secondary-foreground: var(--foreground);
+
+  /* Muted (low emphasis text or UI) */
+  --muted: oklch(20% 0.01 261);
+  --muted-foreground: oklch(60% 0.02 261);
+
+  /* Accent (hover, highlight) */
+  --accent: oklch(40% 0.05 261);
+  --accent-foreground: var(--foreground);
+
+  /* Error/Destructive */
+  --destructive: oklch(60% 0.25 27); /* แดงสด */
+  --destructive-foreground: oklch(98% 0 0); /* ขาว */
+
+  /* Border & Input */
+  --border: oklch(25% 0.015 261);
+  --input: var(--border);
+  --ring: oklch(50% 0.1 261);
+
+  /* Chart Colors */
+  --chart-1: oklch(65% 0.2 260);  /* Violet */
+  --chart-2: oklch(60% 0.15 200); /* Blue */
+  --chart-3: oklch(50% 0.12 240); /* Indigo */
+  --chart-4: oklch(70% 0.18 120); /* Green */
+  --chart-5: oklch(65% 0.18 80);  /* Yellow-Green */
+
+  /* Sidebar Colors */
+  --sidebar: oklch(16% 0.02 261);
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+  --sidebar-accent: var(--accent);
+  --sidebar-accent-foreground: var(--accent-foreground);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--ring);
 }
+
 
 .dark {
   --background: oklch(13% 0.028 261.692);

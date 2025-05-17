@@ -1,5 +1,5 @@
 "use client"
-import { Briefcase, ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import Image from "next/image";
 import { Button } from "./ui/button";
@@ -8,13 +8,12 @@ import Link from "next/link";
 export default function ProjectPage() {
   return (
     <div>
-      <section id="project" className="bg-muted/50 py-16 md:py-24">
+      <section id="project" className="py-16 md:py-24">
         <div className="container space-y-8 ">
           <div className="flex items-center gap-2">
-            <Briefcase className="h-5 w-5 text-primary" />
             <h2 className="text-2xl font-bold tracking-tighter md:text-3xl">Project</h2>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 ">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
             {[
               {
                 title: "Blog Review",
@@ -37,18 +36,18 @@ export default function ProjectPage() {
             ].map((project, index) => (
               <Card
                 key={index}
-                className="overflow-hidden transform transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg"
+                className="overflow-hidden p-2 transform transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg"
               >
-                <div className="relative h-48">
+                <div className="relative h-48 rounded-lg overflow-hidden">
                   <Image
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
                     fill
-                    className="object-cover"
+                    className="object-cover rounded-lg"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>{project.title}</CardTitle>
+                  <CardTitle className="text-gray-900">{project.title}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -63,7 +62,7 @@ export default function ProjectPage() {
                     ))}
                   </div>
                 </CardContent>
-                <CardFooter className="flex items-center gap-4">
+                <CardFooter className="flex items-center gap-4 my-4">
                   <a
                     href={project.github}
                     target="_blank"
@@ -81,7 +80,6 @@ export default function ProjectPage() {
                   </Link>
                 </CardFooter>
               </Card>
-
             ))}
           </div>
         </div>

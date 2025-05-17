@@ -1,4 +1,4 @@
-import { Code, Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Code, Github, Linkedin } from "lucide-react";
 import Link from "next/link";
 
 export default function FooterPage() {
