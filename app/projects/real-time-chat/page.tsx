@@ -38,7 +38,7 @@ export default function RealTimePage() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold">Real Time Chat App</h3>
                 <p className="text-gray-500 leading-relaxed">
-                  It's a real-time chat application developed using Next.js, TypeScript, and Socket.IO, focusing on real-time communication through WebSocket.
+                  It&apos;s a real-time chat application developed using Next.js, TypeScript, and Socket.IO, focusing on real-time communication through WebSocket.
                 </p>
               </div>
               <div className="space-y-4">

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Send } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function ContactPage() {
     return (
@@ -11,7 +11,7 @@ export default function ContactPage() {
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="space-y-4">
                             <p className="text-muted-foreground">
-                                I'm a recent graduate actively seeking a full-time opportunity in a developer role. If you're hiring or know of any openings, feel free to get in touch.
+                                I&apos;m a recent graduate actively seeking a full-time opportunity in a developer role. If you&apos;re hiring or know of any openings, feel free to get in touch.
                             </p>
                             <div className="space-y-2">
                                 <div className="flex items-center gap-2">

@@ -10,7 +10,7 @@ export default function AboutMePage() {
                 <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
                     <div className="flex-1 space-y-4">
                         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                            Hi, I'm <span className="text-primary">NAMFON SAPHU</span>
+                            Hi, I&apos;m <span className="text-primary">NAMFON SAPHU</span>
                         </h1>
                         <p className="text-lg text-muted-foreground">
                             A developer passionate about creating clean, efficient, and user-friendly digital experiences.
@@ -51,11 +51,11 @@ export default function AboutMePage() {
                     <div className="grid md:grid-cols-2 gap-8 items-center">
                         <div className="space-y-4">
                             <p className="text-muted-foreground">
-                                Hi, I’m Namfon Saphu, a Developer based in Bangkok, Thailand.
+                                Hi, I&apos;m Namfon Saphu, a Developer based in Bangkok, Thailand.
                                 I specialize in building clean, responsive, and user-focused web applications using modern technologies such as React, Next.js, JavaScript, and TypeScript.
                             </p>
                             <p className="text-muted-foreground">
-                                My goal is to create scalable, high-quality digital products that not only work flawlessly but also leave a lasting impact. I’m always open to learning new tools, contributing to meaningful projects, and growing as a developer every day.
+                                My goal is to create scalable, high-quality digital products that not only work flawlessly but also leave a lasting impact. I&apos;m always open to learning new tools, contributing to meaningful projects, and growing as a developer every day.
                             </p>
                         </div>
                         <div className="space-y-4">
