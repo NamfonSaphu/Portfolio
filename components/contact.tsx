@@ -11,7 +11,7 @@ export default function ContactPage() {
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="space-y-4">
                             <p className="text-muted-foreground">
-                                I'm currently available for full-time positions. if you're looking to hire a developer, feel free to contact me.
+                                I'm a recent graduate actively seeking a full-time opportunity in a developer role. If you're hiring or know of any openings, feel free to get in touch.
                             </p>
                             <div className="space-y-2">
                                 <div className="flex items-center gap-2">

@@ -5,7 +5,6 @@ import { Alert, AlertTitle } from "@/components/ui/alert"
 import Index from '@/assets/real-times/light-index.png'
 import Chat from '@/assets/real-times/light-chatbot.png'
 
-import { Card, CardContent } from "@/components/ui/card"
 import FooterPage from "@/components/footer"
 import Link from "next/link"
 
@@ -48,7 +47,7 @@ export default function RealTimePage() {
                   <p className="text-gray-500 leading-relaxed">
                     Next.js: A full-stack React framework for building scalable web applications
                   </p>
-                  <Alert className="mt-4">
+                  <Alert className="mt-4 text-gray-900">
                     <Terminal className="h-4 w-4" />
                     <AlertTitle>npx create-next-app@latest</AlertTitle>
                   </Alert>
@@ -57,7 +56,7 @@ export default function RealTimePage() {
                   <p className="text-gray-500 leading-relaxed">
                     Socket.io: Enables real-time, bi-directional communication using WebSocket
                   </p>
-                  <Alert className="mt-4">
+                  <Alert className="mt-4 text-gray-900">
                     <Terminal className="h-4 w-4" />
                     <AlertTitle>npm install socket.io</AlertTitle>
                   </Alert>
@@ -66,7 +65,7 @@ export default function RealTimePage() {
                   <p className="text-gray-500 leading-relaxed">
                     ShadCN UI – A flexible and developer-friendly UI component library
                   </p>
-                  <Alert className="mt-4">
+                  <Alert className="mt-4 text-gray-900">
                     <Terminal className="h-4 w-4" />
                     <AlertTitle>npx shadcn@latest init</AlertTitle>
                   </Alert>

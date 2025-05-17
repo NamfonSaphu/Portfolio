@@ -12,14 +12,14 @@ export default function AboutMePage() {
                         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                             Hi, I'm <span className="text-primary">NAMFON SAPHU</span>
                         </h1>
-                        <p className="text-xl text-muted-foreground">
+                        <p className="text-lg text-muted-foreground">
                             A developer passionate about creating clean, efficient, and user-friendly digital experiences.
                             I enjoy turning complex problems into simple, beautiful solutions. Always eager to learn new technologies and collaborate on meaningful projects.
                         </p>
                         <div className="flex gap-4">
                             <Button asChild>
                                 <Link href="#project">
-                                    View My Work <ArrowRight className="ml-2 h-4 w-4" />
+                                    View My Project <ArrowRight className="ml-2 h-4 w-4" />
                                 </Link>
                             </Button>
                             <Button variant="outline" asChild>
@@ -77,11 +77,6 @@ export default function AboutMePage() {
                                     <p className="text-sm text-muted-foreground">Thai, English</p>
                                 </div>
                             </div>
-                            <Button variant="outline" className="w-full" asChild>
-                                <Link href="/resume.pdf" target="_blank">
-                                    Download Resume
-                                </Link>
-                            </Button>
                         </div>
                     </div>
                 </div>

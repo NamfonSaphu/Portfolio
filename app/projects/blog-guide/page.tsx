@@ -67,7 +67,7 @@ export default function BlogPage() {
                   <p className="text-gray-500 leading-relaxed">
                     Frontend: Developed using Next.js, a React-based framework that supports Server-side Rendering (SSR), Static Site Generation (SSG), and built-in API routes. This enhances performance and SEO capabilities.
                   </p>
-                  <Alert className="mt-4">
+                  <Alert className="mt-4 text-gray-900">
                     <Terminal className="h-4 w-4" />
                     <AlertTitle>npx create-next-app@latest</AlertTitle>
                   </Alert>
@@ -76,7 +76,7 @@ export default function BlogPage() {
                   <p className="text-gray-500 leading-relaxed">
                     Authentication & User Management: Utilized Clerk to handle user authentication, registration, session management, and user profiles, simplifying security and user flow implementation.
                   </p>
-                  <Alert className="mt-4">
+                  <Alert className="mt-4 text-gray-900">
                     <IoIosSettings className="h-4 w-4" />
                     <AlertTitle>NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY</AlertTitle>
                     <AlertTitle>CLERK_SECRET_KEY</AlertTitle>
@@ -86,7 +86,7 @@ export default function BlogPage() {
                   <p className="text-gray-500 leading-relaxed">
                     Map Integration: Implemented react-leaflet to display interactive maps and retrieve geographic location data, supporting features like pin placement and coordinate tracking.
                   </p>
-                  <Alert className="mt-4">
+                  <Alert className="mt-4 text-gray-900">
                     <Terminal className="h-4 w-4" />
                     <AlertTitle>npm install react@rc react-dom@rc leaflet</AlertTitle>
                     <AlertTitle>npm install react-leaflet@next</AlertTitle>
