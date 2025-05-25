@@ -10,7 +10,7 @@ export default function FooterPage() {
                         <Code className="h-5 w-5" />
                         <span className="font-medium">NAMFON S.</span>
                     </div>
-                    <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} NAMFON. All rights reserved.</p>
+                    <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} NAMFON All rights reserved.</p>
                     <div className="flex gap-4">
                         <Link href="https://github.com/namfonsaphu" target="_blank" rel="noopener noreferrer">
                             <Github className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
