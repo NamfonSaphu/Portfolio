@@ -16,7 +16,7 @@ const skills = {
 
 export default function SkillPage() {
   return (
-    <section id="skills" className="container py-24">
+    <section id="skill" className="container py-24">
       <div className="flex flex-col items-center space-y-4 text-center">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Skills & Technologies</h2>
         <p className="max-w-[900px] text-muted-foreground md:text-xl">

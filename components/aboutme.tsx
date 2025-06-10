@@ -6,7 +6,7 @@ export default function AboutMePage() {
     return (
         <div className="flex flex-col">
             {/* Hero Section */}
-            <section className="container py-16 md:py-20 space-y-8">
+            <section className="container mt-10 space-y-8">
                 <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
                     <div className="flex-1 space-y-4">
                         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

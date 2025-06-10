@@ -42,7 +42,7 @@ export default function RealTimePage() {
                 </p>
               </div>
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold text-sky-100">Technical Stack</h3>
+                <h3 className="text-xl font-semibold">Technical Stack</h3>
                 <div>
                   <p className="text-gray-500 leading-relaxed">
                     Next.js: A full-stack React framework for building scalable web applications

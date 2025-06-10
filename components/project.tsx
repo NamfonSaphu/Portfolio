@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function ProjectPage() {
   return (
     <div>
-      <section id="project" className="py-16 md:py-24">
+      <section id="project" className="">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           <div className="flex items-center gap-2">
             <h2 className="text-2xl font-bold tracking-tighter md:text-3xl">Project</h2>

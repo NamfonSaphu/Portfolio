@@ -41,7 +41,7 @@ export default function BlogPage() {
                 </p>
               </div>
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold text-sky-100">Key Features</h3>
+                <h3 className="text-xl font-semibold">Key Features</h3>
                 <div>
                   <p className="text-gray-500 leading-relaxed">
                     View Content: Users can conveniently browse and read various types of content.
@@ -62,7 +62,7 @@ export default function BlogPage() {
                     Search Functionality: Quickly search for content with relevant and accurate results.
                   </p>
                 </div>
-                <h3 className="text-xl font-semibold text-sky-100">Technical Stack</h3>
+                <h3 className="text-xl font-semibold">Technical Stack</h3>
                 <div>
                   <p className="text-gray-500 leading-relaxed">
                     Frontend: Developed using Next.js, a React-based framework that supports Server-side Rendering (SSR), Static Site Generation (SSG), and built-in API routes. This enhances performance and SEO capabilities.
