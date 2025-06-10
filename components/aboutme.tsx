@@ -6,7 +6,7 @@ export default function AboutMePage() {
     return (
         <div className="flex flex-col">
             {/* Hero Section */}
-            <section className="container py-24 md:py-32 space-y-8">
+            <section className="container py-16 md:py-20 space-y-8">
                 <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
                     <div className="flex-1 space-y-4">
                         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -43,44 +43,23 @@ export default function AboutMePage() {
             </section>
 
             {/* About Section */}
-            <section id="about" className="md:py-24">
+            <section id="about" className="pt-12 md:pt-16">
                 <div className="container space-y-8">
                     <div className="flex items-center gap-2">
                         <h2 className="text-2xl font-bold tracking-tighter md:text-3xl">About Me</h2>
                     </div>
-                    <div className="grid md:grid-cols-2 gap-8 items-center">
-                        <div className="space-y-4">
-                            <p className="text-muted-foreground">
-                                Hi, I&apos;m Namfon Saphu, a Developer based in Bangkok, Thailand.
-                                I specialize in building clean, responsive, and user-focused web applications using modern technologies such as React, Next.js, JavaScript, and TypeScript.
-                            </p>
-                            <p className="text-muted-foreground">
-                                My goal is to create scalable, high-quality digital products that not only work flawlessly but also leave a lasting impact. I&apos;m always open to learning new tools, contributing to meaningful projects, and growing as a developer every day.
-                            </p>
-                        </div>
-                        <div className="space-y-4 mb-4">
-                            <div className="grid grid-cols-2 gap-4">
-                                <div className="bg-background p-4 rounded-lg border">
-                                    <h3 className="font-medium">Education</h3>
-                                    <p className="text-sm text-muted-foreground">Ubon Ratchathani University</p>
-                                </div>
-                                <div className="bg-background p-4 rounded-lg border">
-                                    <h3 className="font-medium">Experience</h3>
-                                    <p className="text-sm text-muted-foreground">None Experience</p>
-                                </div>
-                                <div className="bg-background p-4 rounded-lg border">
-                                    <h3 className="font-medium">Location</h3>
-                                    <p className="text-sm text-muted-foreground">Bangkok, Thailand</p>
-                                </div>
-                                <div className="bg-background p-4 rounded-lg border">
-                                    <h3 className="font-medium">Languages</h3>
-                                    <p className="text-sm text-muted-foreground">Thai, English</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="space-y-4">
+                        <p className="text-muted-foreground">
+                            Hi, I&apos;m Namfon Saphu, a Developer based in Bangkok, Thailand.
+                            I specialize in building clean, responsive, and user-focused web applications using modern technologies such as React, Next.js, JavaScript, and TypeScript.
+                        </p>
+                        <p className="text-muted-foreground">
+                            My goal is to create scalable, high-quality digital products that not only work flawlessly but also leave a lasting impact. I&apos;m always open to learning new tools, contributing to meaningful projects, and growing as a developer every day.
+                        </p>
                     </div>
                 </div>
             </section>
+
         </div>
     )
 }
