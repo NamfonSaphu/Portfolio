@@ -50,17 +50,6 @@ export default function CryptoPage() {
                                             within and outside the system, and record all transactions.
                                         </p>
                                     </div>
-                                    <Button asChild className="shrink-0">
-                                        <a
-                                            href="https://github.com/NamfonSaphu/crypto-exchange"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="flex items-center gap-2"
-                                        >
-                                            <ExternalLink className="h-4 w-4" />
-                                            View Code
-                                        </a>
-                                    </Button>
                                 </div>
 
                                 <div className="space-y-4">
