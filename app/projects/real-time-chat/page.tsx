@@ -19,9 +19,28 @@ export default function RealTimePage() {
               <Code className="h-5 w-5 shrink-0" />
               <span className="whitespace-nowrap">NAMFON S.</span>
             </Link>
+
+            {/* moved nav here to align it to the right */}
+            <nav className="flex items-center space-x-4 ml-auto">
+              <Link
+                href="/"
+                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition duration-200"
+              >
+                Home
+              </Link>
+              <a
+                href="https://github.com/NamfonSaphu/Chat-Socket.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition duration-200"
+              >
+                View Code
+              </a>
+            </nav>
           </div>
         </div>
       </div>
+
       <main className="container mx-auto px-4 py-12">
         <section className="max-w-4xl mx-auto">
           <div className="space-y-20">

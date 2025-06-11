@@ -1,9 +1,9 @@
 "use client"
-import { ExternalLink, Github } from "lucide-react";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
-import Image from "next/image";
-import { Button } from "./ui/button";
-import Link from "next/link";
+import { ExternalLink, Github } from "lucide-react"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card"
+import Image from "next/image"
+import { Button } from "./ui/button"
+import Link from "next/link"
 
 export default function ProjectPage() {
   return (
@@ -34,6 +34,15 @@ export default function ProjectPage() {
                 github: "https://github.com/NamfonSaphu/Chat-Socket",
                 href: "/projects/real-time-chat",
               },
+              {
+                title: "Crypto Exchange Backend API",
+                description:
+                  "For the Cryptocurrency Exchange System Users can register accounts, buy and sell cryptocurrencies (BTC, ETH, XRP, DOGE), use fiat currencies (THB, USD) to purchase coins from other users, transfer coins both within and outside the system, and record all transactions.",
+                tech: ["Node.Js", "Express", "sql2", "Sequelize ORM ", "Docker"],
+                image: "/images/api.jpg",
+                github: "https://github.com/NamfonSaphu/crypto-exchange.git",
+                href: "/projects/crypto-exchange",
+              },
             ].map((project, index) => (
               <Card
                 key={index}
@@ -50,9 +59,7 @@ export default function ProjectPage() {
                   </div>
 
                   <CardHeader className="p-0 mb-2">
-                    <CardTitle className="text-gray-50 text-lg mb-1 mt-3">
-                      {project.title}
-                    </CardTitle>
+                    <CardTitle className="text-gray-50 text-lg mb-1 mt-3">{project.title}</CardTitle>
                     <CardDescription className="text-sm text-muted-foreground line-clamp-3">
                       {project.description}
                     </CardDescription>
@@ -61,10 +68,7 @@ export default function ProjectPage() {
                   <CardContent className="p-0 mt-2">
                     <div className="flex flex-wrap gap-2">
                       {project.tech.map((tech) => (
-                        <span
-                          key={tech}
-                          className="bg-primary/10 text-primary text-xs px-2 py-1 rounded"
-                        >
+                        <span key={tech} className="bg-primary/10 text-primary text-xs px-2 py-1 rounded">
                           {tech}
                         </span>
                       ))}
@@ -95,6 +99,5 @@ export default function ProjectPage() {
         </div>
       </section>
     </div>
-
-  );
+  )
 }
