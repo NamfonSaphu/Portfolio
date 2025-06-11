@@ -1,8 +1,7 @@
-import { Code, ExternalLink, Terminal } from "lucide-react"
+import { Code, Terminal } from "lucide-react"
 import { Alert, AlertTitle } from "@/components/ui/alert"
 import FooterPage from "@/components/footer"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 
 export default function CryptoPage() {
     return (
