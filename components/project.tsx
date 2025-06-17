@@ -43,6 +43,15 @@ export default function ProjectPage() {
                 github: "https://github.com/NamfonSaphu/crypto-exchange.git",
                 href: "/projects/crypto-exchange",
               },
+              {
+                title: "Career Application Platform",
+                description:
+                  "A simple and modern job application system that allows users to register, log in, and submit job applications through an online form. All applicant data is securely stored in Supabase, and the system is integrated with Clerk for authentication.",
+                tech: ["Next.js", "EdgeStore", "Clerk", "Prisma", "Supabase"],
+                image: "/images/index.png   ",
+                github: "https://github.com/NamfonSaphu/recruitment-system.git",
+                href: "/projects/recruitment-system",
+              },
             ].map((project, index) => (
               <Card
                 key={index}
